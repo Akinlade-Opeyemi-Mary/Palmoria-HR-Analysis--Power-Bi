@@ -282,11 +282,57 @@ The Palmoria HR dashboard was designed with a **multi-page layout** to highlight
 ### 🎨 Design  
 - **Color Palette:** `#FADCD5` (accent) + dark supporting shades.  
 - **Style:** Rounded cards, clean fonts, minimal clutter.  
-- **Storytelling Flow:** Overview → Compensation → Gender → Bonus → Region.  
-
+- **Storytelling Flow:** Overview → Compensation → Gender → Bonus → Region.
+  
+## 🖥️ Dashboard 1 – Overview & Compensation Insights
 ![Alt text](https://github.com/Akinlade-Opeyemi-Mary/Palmoria-HR-Analysis--Power-Bi/blob/d98d43fd8605a9fc53c3e1fbdd97dd6f58160f8c/Palmoria%20Dashboard%20page%201.png)
 
+## 🖥️ Dashboard 2 – Gender, Bonus & Regional Insights  
+![Alt text](https://github.com/Akinlade-Opeyemi-Mary/Palmoria-HR-Analysis--Power-Bi/blob/52398d832077bd94d0ddc6a8538eb54df823e310/Palmoria%20Dashboard%202.png)
 
+# 🔑 INSIGHTS & KEY FINDINGS
+
+Based on the analysis and dashboard visualization, the following insights were uncovered:  
+
+---
+
+## 👥 Workforce Insights  
+- **Employees Above $90K:** Only ~X% of employees earn above $90K, while majority are below the threshold.  
+- **Undisclosed Employees:** A small % of records remain undisclosed, indicating possible data entry or reporting gaps.  
+
+---
+
+## 💰 Compensation Insights  
+- **Total Compensation** = Salary + Bonus provided a holistic view of earnings.  
+- **Salary Distribution:** Majority of employees fall within the $40K–$80K bands.  
+- **Average Salary & Bonus:** Avg salary is ~$XXK, with bonus contributing ~X% to total compensation.  
+
+---
+
+## 👩‍💼 Gender Insights  
+- **Workforce Split:** Male employees dominate (X%), while females account for only (Y%).  
+- **Gender Pay Gap:** Female average salary is lower by ~Z% compared to males.  
+- **Compensation Share:** Males capture ~X% of total pay, females ~Y%.  
+
+---
+
+## 🎁 Bonus Insights  
+- **Total Bonus Paid:** $X million allocated as bonuses across all regions.  
+- **Bonus % of Pay:** On average, bonuses account for ~X% of total compensation.  
+- **Gender Gap in Bonus:** Male employees received ~X% more in bonuses compared to females.  
+- **Regional Bonus:** Region A leads in bonus allocation, followed by Region B.  
+
+---
+
+## 🌍 Regional Insights  
+- **Top Region by Spend:** Region A recorded the highest spend (Salary + Bonus), contributing ~X% of company total.  
+- **Regional Pay Gap:** Significant salary disparities exist between Region A and Region C.  
+- **Strategic Insight:** The company’s bonus and salary distribution is regionally skewed, potentially driving retention issues.  
+
+---
+
+✅ **Overall Finding:**  
+Palmoria Group demonstrates visible gender inequality in both salary and bonuses, with compensation concentrated in specific regions. This highlights the need for **salary standardization, gender equity policies, and balanced regional pay structures**.  
 
 
 
