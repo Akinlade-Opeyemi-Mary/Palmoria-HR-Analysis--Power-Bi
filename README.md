@@ -71,11 +71,96 @@ The dataset was provided by **Digital Skills Africa / Incubator Hub** as part of
 
 📥 **Download Dataset:** [Click here to download](https://canvas.instructure.com/files/folder/courses_11955369/DSA%20Capstone%20Project%20Files)  
 
-## 🛠 Tools Used  
+# 🛠 TOOLS USED
 
 - **Microsoft Power BI** → Primary tool for data modeling, dashboard design, and storytelling.  
 - **Power Query Editor** → Data cleaning, transformation, and preparation.  
 - **DAX (Data Analysis Expressions)** → Creation of calculated columns and measures (e.g., Bonus Amount, Salary + Bonus, Pay Gap %, Compliance Checks).  
 - **Microsoft Excel** → Initial review and understanding of dataset structure (bonus mapping rules, salary validation).  
 - **GitHub** → Documentation, version control, and portfolio presentation.  
+
+# 🧹 DATA CLEANING AND PREPARATION
+
+Before analysis, the dataset was reviewed and cleaned in **Power Query Editor** to ensure accuracy and consistency.  
+
+## Key Steps Taken:
+1. **Missing Values**  
+   - Employees without salary → Removed (assumed no longer employed).  
+   - Blank or missing gender → Reassigned as *"Undisclosed"*.  
+   - Null departments → Dropped (could not be mapped to any business unit).  
+
+2. **Duplicate Records**  
+   - Checked Employee Name & Department fields for duplicates.  
+   - Retained unique entries only.  
+
+3. **Salary Validation**  
+   - Ensured all salary values were numeric.  
+   - Corrected any incorrect formats.  
+
+4. **Bonus Mapping Integration**  
+   - Used `Palmoria Bonus Mapping` table.  
+   - Merged with main employee dataset using **Department** and **Performance Rating**.  
+   - Ensured each employee had the correct bonus allocation rule.  
+
+5. **Data Type Standardization**  
+   - Salary → Currency (NAIRA).  
+   - Rating → Text/Categorical.  
+   - Gender/Department/Region → Categorical.  
+
+✅ Final dataset was clean, consistent, and ready for **Power BI modeling and visualization**.  
+
+# 🔍 EXPLORATORY DATA ANALYSIS (EDA)  
+
+The goal of EDA was to understand the overall structure of the dataset, spot early trends, and identify areas requiring deeper analysis.  
+
+## Key Explorations Conducted:
+1. **Dataset Structure**  
+   - Total Employees: *500+ records (Palmoria Group)*  
+   - Tables:  
+     - `Palmoria Group EMP` → Employee details (Name, Department, Gender, Salary, Region, Rating).  
+     - `Palmoria Bonus Mapping` → Bonus allocation rules (Department vs. Rating).  
+
+2. **Gender Distribution**  
+   - Counted male vs. female employees.  
+   - Verified presence of "Undisclosed" category after cleaning.  
+
+3. **Department & Regional Spread**  
+   - Number of employees by **Department**.  
+   - Employee distribution across **3 regions**.  
+
+4. **Salary Overview**  
+   - Average, minimum, and maximum salaries.  
+   - Checked how many employees fall below the $90,000 threshold.  
+
+5. **Performance Ratings**  
+   - Distribution of employees across *Very Poor, Poor, Average, Good, Very Good*.  
+   - Checked for imbalances by gender.  
+
+6. **Bonus Allocation Readiness**  
+   - Confirmed all departments were mapped to bonus rules.  
+   - Previewed total bonus amounts at company level.  
+
+✅ EDA provided a clear picture of employee demographics, salary spread, and performance rating distribution — forming the foundation for deeper Power BI visual analysis.  
+
+# 📊 DAX COLUMNS & MEASURES
+
+---
+
+## 🔹 DAX Columns  
+
+Some key calculated columns created include:  
+
+### **Total Compensation**  
+```DAX
+Total Compensation = 'Palmoria Group emp-data'[Salary] + 'Palmoria Group emp-data'[Bonus Amount]
+
+
+
+
+
+
+
+
+
+
 
