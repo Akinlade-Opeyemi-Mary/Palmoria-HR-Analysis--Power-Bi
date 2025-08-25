@@ -284,6 +284,7 @@ The Palmoria HR dashboard was designed with a **multi-page layout** to highlight
 - **Style:** Rounded cards, clean fonts, minimal clutter.  
 - **Storytelling Flow:** Overview → Compensation → Gender → Bonus → Region.  
 
+![Alt text](https://github.com/Akinlade-Opeyemi-Mary/Palmoria-HR-Analysis--Power-Bi/blob/d98d43fd8605a9fc53c3e1fbdd97dd6f58160f8c/Palmoria%20Dashboard%20page%201.png)
 
 
 
